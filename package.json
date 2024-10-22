@@ -1,0 +1,23 @@
+{
+  "name": "@mia-burton/fedex-tracking-js",
+  "version": "0.0.1",
+  "description": "FedEx tracking",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Paolo Felice Galizzi",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config src/jest.config.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
